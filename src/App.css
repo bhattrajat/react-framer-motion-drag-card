@@ -1,0 +1,22 @@
+.card {
+  padding: 10rem 5rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  box-shadow: 6px 6px 0px rgba(0,0,0,1);
+  color: white;
+  font-size: 2rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+}
+.relative{
+  position: relative;
+}
+
+
