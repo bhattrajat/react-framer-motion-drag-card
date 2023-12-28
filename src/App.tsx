@@ -16,11 +16,18 @@ function App() {
         height: '100vh',
         display: 'flex',
         minWidth: '100vw',
+        flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
         overflowX: 'hidden',
       }}
     >
+      <h2>
+        Inspired from{' '}
+        <a target="_blank" href="https://ui.dev/">
+          ui.dev
+        </a>
+      </h2>
       <div className="grid">
         {list.map((item, index) => (
           <Card
